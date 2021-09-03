@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY;
+const API_KEY = secrets.API_KEY;
 
 const searchTemperature = async () => {
     const city = document.getElementById('city-name').value;
