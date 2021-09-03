@@ -1,4 +1,4 @@
-const API_KEY = secrets.API_KEY;
+const API_KEY = `2e18f53f00352de97f1bb4a691985c46`;
 
 const searchTemperature = async () => {
     const city = document.getElementById('city-name').value;
